@@ -1,0 +1,15 @@
+{
+  "name": "gherkinflow-bdd",
+  "version": "1.0.0",
+  "description": "High-performance, streaming Gherkin syntax lexer, AST parser, and step execution engine. Supports Feature, Scenario, Scenario Outline, Examples tables, Background, DocStrings, and regex/cucumber expression step definition matching with lifecycle hooks.",
+  "main": "src/index.js",
+  "bin": {
+    "gherkin-flow": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node tests/run_tests.js",
+    "start": "node src/index.js"
+  },
+  "author": "Ali Nurettin Demir (@alinurettin)",
+  "license": "MIT"
+}

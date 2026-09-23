@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  gherkinflow-bdd:
+    build: .
+    ports:
+      - "7075:7075"
+    environment:
+      - PORT=7075
